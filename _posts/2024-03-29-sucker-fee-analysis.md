@@ -65,7 +65,7 @@ tags: [economics, romania, LLM-collab]
 ## 5. Sucker Fee Diagram Representation
 
 - Here’s a **diagram** explaining the **Sucker Fee (The Participation Tax)**:
-- ![PlantUML diagram](https://cdn-0.plantuml.com/plantuml/png/XPDHJzj03CVV-ociIjlAopRGzh0tM2bGgL3MXl5iBcvhaTYHxwvGJUopxwwXD9D0g5AbnB_yxL_EEVO1BSIwwlbxbWODQoXfWR4A1Js6augNKfC4SEcFhDVx13FL04CLHqteYPO4_NbqzsHmHWI3OaLmdJBPSOE1LQ30nuC-e8VPT5h0dvoHRhMrZt29Kc9Gs-JCO7mNSy4_9xyFzbCYG4jVy785Ot5QKsv17WP_lnrzEEY_4FkG2y8gPDf7moG3WyElNVAQnEV6yuqFLCFWw7kt-lkaW5GyLorzccrEjcQN-nt-oDXJbXog3w0BcF2QPPceiIoghSsptDl0Vr8QVIvdElUQaOJz82-Fv75-ecVN3hKd9bnpe19-HQmuR62-qiO32yoqHc7SawF79akl2IRgi7gnUlOPEHMjKuDBlUCSbVgPCTdkiDu6kZuJVI23MroIXsA50hVa0vd0A9eszDeuepAwtHeCoG8lkBr-HNCiwvIttTbfqwY5A1oOEkGLDHhOrpbCpMApJMQ18HgHmRdfGrZj3Z6QaRXDWizOK1nZ1QViiLoZX2InatyVxBw4sVGAJganSjoAhVrd6DtCljpCJ_UJ3ZN9c6_52qFnY_OpIpRTdIU3Qzlktq8DndNMfdAt24_fTqnInhhw1m00)
+- ![Sucker Fee Diagram]({{ '/assets/images/posts/2024-03-29-sucker-fee-analysis/sucker-fee-diagram.png' | relative_url }})
 
 ## 6. Comparison with Similar Countries and Western Countries
 
