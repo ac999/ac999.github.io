@@ -4,6 +4,16 @@ layout: default
 
 <article class="post">
   <div class="post-header">
+    <div class="post-navigation">
+      <a href="/blog/" class="back-button">&larr; Back to Blog</a>
+    </div>
+    
+    {% if page.thumbnail %}
+    <div class="post-thumbnail">
+      <img src="{{ page.thumbnail }}" alt="{{ page.title }}">
+    </div>
+    {% endif %}
+    
     <h1>{{ page.title }}</h1>
     <div class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
@@ -27,6 +37,15 @@ layout: default
       {% for tag in page.tags %}
         <span class="tag">{{ tag }}</span>
       {% endfor %}
+    </div>
+    
+    <div class="post-share">
+      <h4>Share this post</h4>
+      <div class="share-buttons">
+        <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url | url_encode }}" target="_blank" class="share-button twitter">Twitter</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | url_encode }}" target="_blank" class="share-button facebook">Facebook</a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url | url_encode }}&title={{ page.title | url_encode }}" target="_blank" class="share-button linkedin">LinkedIn</a>
+      </div>
     </div>
   </div>
   {% endif %}

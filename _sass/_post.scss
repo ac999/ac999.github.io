@@ -2,9 +2,25 @@
     max-width: $content-width;
     margin: 0 auto;
     
+    .post-navigation {
+      margin-bottom: $spacing-md;
+      
+      .back-button {
+        display: inline-block;
+        color: rgba($text-color, 0.7);
+        font-size: 0.9rem;
+        font-weight: 500;
+        transition: color 0.2s ease;
+        
+        &:hover {
+          color: $accent-color;
+          text-decoration: none;
+        }
+      }
+    }
+    
     .post-header {
       margin-bottom: $spacing-lg;
-      text-align: center;
       
       h1 {
         margin-bottom: 0.5rem;
@@ -60,6 +76,7 @@
         display: flex;
         flex-wrap: wrap;
         gap: 0.5rem;
+        margin-bottom: $spacing-md;
         
         .tag {
           background-color: $light-gray;
@@ -67,6 +84,44 @@
           border-radius: 3px;
           font-size: 0.75rem;
           color: rgba($text-color, 0.7);
+        }
+      }
+      
+      .post-share {
+        margin-top: $spacing-md;
+        
+        h4 {
+          margin-bottom: 0.5rem;
+          font-size: 1rem;
+        }
+        
+        .share-buttons {
+          display: flex;
+          gap: 0.5rem;
+          
+          .share-button {
+            padding: 0.3rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            color: white;
+            
+            &.twitter {
+              background-color: #1DA1F2;
+            }
+            
+            &.facebook {
+              background-color: #4267B2;
+            }
+            
+            &.linkedin {
+              background-color: #0077B5;
+            }
+            
+            &:hover {
+              opacity: 0.9;
+              text-decoration: none;
+            }
+          }
         }
       }
     }

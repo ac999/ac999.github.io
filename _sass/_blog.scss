@@ -1,43 +1,83 @@
 .blog-archive {
-    .post-item {
+    .blog-search {
       margin-bottom: $spacing-lg;
-      padding-bottom: $spacing-lg;
-      border-bottom: 1px solid $border-color;
       
-      &:last-child {
-        border-bottom: none;
-      }
-      
-      h2 {
-        margin-bottom: 0.5rem;
-        font-size: 1.75rem;
-      }
-      
-      .post-meta {
-        margin-bottom: 1rem;
-        color: rgba($text-color, 0.6);
-        font-size: 0.875rem;
+      input {
+        width: 100%;
+        padding: 0.75rem;
+        border: 1px solid $border-color;
+        border-radius: 4px;
+        font-size: 1rem;
         
-        .categories {
-          margin-left: 0.5rem;
+        &:focus {
+          outline: none;
+          border-color: $accent-color;
+        }
+      }
+    }
+    
+    .post-list {
+      list-style: none;
+      padding: 0;
+      
+      .post-item {
+        display: flex;
+        align-items: baseline;
+        padding: 0.75rem 0;
+        border-bottom: 1px solid $border-color;
+        
+        &:last-child {
+          border-bottom: none;
+        }
+        
+        time {
+          flex: 0 0 90px;
+          color: rgba($text-color, 0.6);
+          font-size: 0.9rem;
+        }
+        
+        a {
+          flex: 1;
+          font-weight: 500;
+        }
+        
+        .post-categories {
+          flex: 0 0 auto;
+          display: flex;
+          gap: 0.5rem;
           
-          .category {
-            display: inline-block;
+          .category-tag {
+            font-size: 0.75rem;
+            padding: 0.1rem 0.5rem;
             background-color: $light-gray;
-            padding: 0.2rem 0.5rem;
             border-radius: 3px;
-            margin-left: 0.25rem;
+            color: rgba($text-color, 0.7);
           }
         }
       }
-      
-      .post-excerpt {
-        margin-bottom: 1rem;
-      }
-      
-      .read-more {
-        font-weight: 500;
-        font-size: 0.9rem;
+    }
+    
+    .no-search-results {
+      text-align: center;
+      padding: $spacing-lg 0;
+      color: rgba($text-color, 0.7);
+    }
+  }
+  
+  @media (max-width: $breakpoint-md) {
+    .blog-archive {
+      .post-list .post-item {
+        flex-wrap: wrap;
+        
+        time {
+          flex: 0 0 100%;
+          margin-bottom: 0.25rem;
+        }
+        
+        .post-categories {
+          flex: 0 0 100%;
+          margin-top: 0.5rem;
+        }
       }
     }
   }

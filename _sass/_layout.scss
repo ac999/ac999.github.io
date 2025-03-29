@@ -2,6 +2,8 @@
     max-width: $container-width;
     margin: 0 auto;
     padding: 0 $container-padding;
+    width: 100%;
+    box-sizing: border-box;
   }
   
   .content {
@@ -12,22 +14,69 @@
     .content {
       padding: $spacing-md 0;
     }
+    
+    .container {
+      padding: 0 $container-padding / 2;
+    }
   }
   
   // For narrower content like blog posts
   .narrow-container {
     max-width: $content-width;
     margin: 0 auto;
+    padding: 0 $container-padding;
+    width: 100%;
+    box-sizing: border-box;
   }
   
-  .flex {
-    display: flex;
+  // Enhanced post styles for thumbnails and mobile
+  .post {
+    .post-thumbnail {
+      margin-bottom: $spacing-md;
+      
+      img {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+    }
+    
+    @media (max-width: $breakpoint-md) {
+      .post-meta {
+        flex-direction: column;
+        align-items: flex-start;
+        
+        .categories {
+          margin-left: 0;
+          margin-top: 0.5rem;
+        }
+      }
+      
+      .post-footer {
+        .share-buttons {
+          flex-wrap: wrap;
+        }
+      }
+    }
   }
   
-  .flex-between {
-    justify-content: space-between;
-  }
-  
-  .flex-column {
-    flex-direction: column;
+  // Enhanced header styles for mobile
+  .site-header {
+    @media (max-width: $breakpoint-md) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+        gap: $spacing-sm;
+      }
+      
+      .site-nav {
+        margin: $spacing-sm 0;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .social-links {
+        margin-top: $spacing-sm;
+      }
+    }
   }
