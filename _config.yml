@@ -1,1 +1,13 @@
-theme: jekyll-theme-minimal
+theme: null
+collections:
+  posts:
+    output: true
+    permalink: /blog/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: false # Disable if no commenting system

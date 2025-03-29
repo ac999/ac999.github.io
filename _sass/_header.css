@@ -1,0 +1,16 @@
+.social-links {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    
+    .icon {
+      width: 26px;
+      height: 26px;
+      fill: var(--text-color);
+      transition: fill 0.2s ease;
+      
+      &:hover {
+        fill: var(--accent-color);
+      }
+    }
+  }
