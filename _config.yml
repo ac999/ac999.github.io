@@ -1,13 +1,34 @@
+# Site settings
+title: Andrei Cristian
+description: "Thoughts, ideas, and analysis on technology, economics, and life."
+url: "https://ac999.github.io"
+author: Andrei Cristian
+
+# Build settings
 theme: null
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:title/
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Collections
 collections:
   posts:
     output: true
     permalink: /blog/:title/
 
+# Default layouts
 defaults:
   - scope:
       path: ""
       type: posts
     values:
       layout: post
-      comments: false # Disable if no commenting system
+      comments: false
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default

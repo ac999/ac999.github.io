@@ -1,0 +1,28 @@
+// Typography
+$font-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$heading-font: "Georgia", serif;
+$line-height: 1.6;
+$font-size-base: 16px;
+
+// Colors
+$text-color: #333;
+$background-color: #fff;
+$accent-color: #2e6da4;
+$secondary-color: #4a90e2;
+$light-gray: #f7f7f7;
+$border-color: #eaeaea;
+$footer-bg: #2c3e50;
+$footer-text: #ecf0f1;
+
+// Layout
+$container-width: 900px;
+$content-width: 700px;
+$container-padding: 20px;
+$spacing-sm: 0.75rem;
+$spacing-md: 1.5rem;
+$spacing-lg: 3rem;
+
+// Breakpoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;

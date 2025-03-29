@@ -1,0 +1,33 @@
+.container {
+    max-width: $container-width;
+    margin: 0 auto;
+    padding: 0 $container-padding;
+  }
+  
+  .content {
+    padding: $spacing-lg 0;
+  }
+  
+  @media (max-width: $breakpoint-md) {
+    .content {
+      padding: $spacing-md 0;
+    }
+  }
+  
+  // For narrower content like blog posts
+  .narrow-container {
+    max-width: $content-width;
+    margin: 0 auto;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-between {
+    justify-content: space-between;
+  }
+  
+  .flex-column {
+    flex-direction: column;
+  }

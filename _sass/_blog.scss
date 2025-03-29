@@ -1,0 +1,43 @@
+.blog-archive {
+    .post-item {
+      margin-bottom: $spacing-lg;
+      padding-bottom: $spacing-lg;
+      border-bottom: 1px solid $border-color;
+      
+      &:last-child {
+        border-bottom: none;
+      }
+      
+      h2 {
+        margin-bottom: 0.5rem;
+        font-size: 1.75rem;
+      }
+      
+      .post-meta {
+        margin-bottom: 1rem;
+        color: rgba($text-color, 0.6);
+        font-size: 0.875rem;
+        
+        .categories {
+          margin-left: 0.5rem;
+          
+          .category {
+            display: inline-block;
+            background-color: $light-gray;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            margin-left: 0.25rem;
+          }
+        }
+      }
+      
+      .post-excerpt {
+        margin-bottom: 1rem;
+      }
+      
+      .read-more {
+        font-weight: 500;
+        font-size: 0.9rem;
+      }
+    }
+  }

@@ -1,0 +1,22 @@
+<header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Andrei Cristian</a>
+      
+      <nav class="site-nav">
+        {% for item in site.data.navigation %}
+          <a href="{{ item.link }}" {% if page.url == item.link %}class="active"{% endif %}>
+            {{ item.name }}
+          </a>
+        {% endfor %}
+      </nav>
+      
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/andrei-cristian-2366b3138/" title="LinkedIn" target="_blank">
+          <svg class="icon"><use xlink:href="{% include_relative _include/icons.svg %}#linkedin-icon"></use></svg>
+        </a>
+        <a href="https://github.com/ac999/" title="GitHub" target="_blank">
+          <svg class="icon"><use xlink:href="{% include_relative _include/icons.svg %}#github-icon"></use></svg>
+        </a>
+      </div>
+    </div>
+  </header>

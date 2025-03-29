@@ -1,0 +1,36 @@
+/* Basic Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-stack;
+  font-size: $font-size-base;
+  line-height: $line-height;
+  color: $text-color;
+  background-color: $background-color;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: $accent-color;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: darken($accent-color, 15%);
+  }
+}
+
+ul, ol {
+  padding-left: 1.5rem;
+}

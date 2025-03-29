@@ -1,0 +1,65 @@
+.site-header {
+  padding: $spacing-md 0;
+  border-bottom: 1px solid $border-color;
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .site-title {
+    font-family: $heading-font;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: $text-color;
+    
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  
+  .site-nav {
+    display: flex;
+    gap: $spacing-md;
+    
+    a {
+      color: rgba($text-color, 0.7);
+      font-weight: 500;
+      
+      &.active, &:hover {
+        color: $text-color;
+      }
+    }
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 1rem;
+    
+    .icon {
+      width: 24px;
+      height: 24px;
+      fill: rgba($text-color, 0.7);
+      transition: fill 0.2s ease;
+      
+      &:hover {
+        fill: $accent-color;
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .site-header {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      gap: $spacing-sm;
+    }
+    
+    .site-nav {
+      margin: $spacing-sm 0;
+    }
+  }
+}
