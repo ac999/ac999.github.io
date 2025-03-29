@@ -32,3 +32,5 @@ defaults:
       type: pages
     values:
       layout: default
+include:
+  - assets/images
