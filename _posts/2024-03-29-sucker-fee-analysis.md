@@ -50,6 +50,10 @@ tags: [economics, romania, LLM-collab]
 - **Limited Investment Opportunities** – Stock market & real estate require large capital, and inflation erodes savings.
 - **Nepotism & Corruption in Career Growth** – Meritocracy is often replaced by connections, slowing personal advancement.
 
+### 3.3. GDP Comparison
+
+[![2024 GDP per Capita Relative to EU Average (ec.europa.eu)](https://mermaid.ink/img/pako:eNqFkVFr2zAQx7-KOCi04ARJVmJHb13djcEKo2UPG365xFdXzJaMImXpQr775DrdGMvoIXTS_-5-d0gH2LiGQEOLNoTasmTBhI6Y5FKxD9VnNpBnNziYgOyeOgxmRyw4dvuFXe_IY0vM2DGbs0vazCl6N2ByVxOswUDvne8xMPY12ezublZVUwz3ZnuKXTSTNO1b2gTjLPsU99SvXfTtpAslLhiuXZogtcddO4p6nHTGRVoZk0qcJX30aXTb_AkI8SZKnEdVZHv03ydRlv9S_sYIWZ7F3LsercETJg2zps79-C-mWJ2lvItdi_4Vk6u3MMtlwtQWMugpPbxp0tcfxuIawhP1VINOx4YeMXahhtoeUyrG4B6e7QZ08JEy8C62T6AfsdumWxzGP64Mth773-qA9ptz_WtJ68dWp3KyDfkbF20AXYrFSzLoA-xBF-W8FFKp5WKlZF7KMoNn0Hmu5qIoeC5VwZMTxwx-vtD5vCwWPJngq4XKuVwdfwHfwM3Z?type=png)](https://mermaid.live/edit#pako:eNqFkVFr2zAQx7-KOCi04ARJVmJHb13djcEKo2UPG365xFdXzJaMImXpQr775DrdGMvoIXTS_-5-d0gH2LiGQEOLNoTasmTBhI6Y5FKxD9VnNpBnNziYgOyeOgxmRyw4dvuFXe_IY0vM2DGbs0vazCl6N2ByVxOswUDvne8xMPY12ezublZVUwz3ZnuKXTSTNO1b2gTjLPsU99SvXfTtpAslLhiuXZogtcddO4p6nHTGRVoZk0qcJX30aXTb_AkI8SZKnEdVZHv03ydRlv9S_sYIWZ7F3LsercETJg2zps79-C-mWJ2lvItdi_4Vk6u3MMtlwtQWMugpPbxp0tcfxuIawhP1VINOx4YeMXahhtoeUyrG4B6e7QZ08JEy8C62T6AfsdumWxzGP64Mth773-qA9ptz_WtJ68dWp3KyDfkbF20AXYrFSzLoA-xBF-W8FFKp5WKlZF7KMoNn0Hmu5qIoeC5VwZMTxwx-vtD5vCwWPJngq4XKuVwdfwHfwM3Z)
+
 ## 4. Currency & Financial Disadvantages (Losing Money Through the System)
 
 ### 4.1. Problem
@@ -64,8 +68,9 @@ tags: [economics, romania, LLM-collab]
 
 ## 5. Sucker Fee Diagram Representation
 
-- Here’s a **diagram** explaining the **Sucker Fee (The Participation Tax)**:
-- ![Sucker Fee Diagram]({{ '/assets/images/posts/2024-03-29-sucker-fee-analysis/sucker-fee-diagram.png' | relative_url }})
+- Here’s a diagram explaining the **Sucker Fee (The Participation Tax)**
+
+![Sucker Fee Diagram](https://www.plantuml.com/plantuml/png/HL7Tpjem3BtdANo5jZu56Zy3YK45IBiEgGlM6Zjot0xUVcdJVLmbzh6FZuzNoPnQ86w2YuiAhht_WmexHFXsUoBK6ILFqHa9myszlY-gQdodHFvNS60l0SVS55x5a-jWBMnAztuiInEmHzVPqpl5AQoHKw78jSb0MZZIGFoOq0komHBsqgUSWbh9Ow7vuH9v-2dIf3owxJv2QX65e_Wy_Oewp1smzS8IoCClkLD7zfwAZ_8N5NwxnqoxVSLHq82mRNfVrbt26jMefHAdqaY139iyUy1aOTHvZb7KUYQZcUs4KOnI62b4jO_sVzLU5Tc_Cx0ZTZnvjQ7aci6nVQcvd4-mmQZewRDVjdH0JKNPJHsdjfngzfSUJzJPAcX5uH16NTWKjnOhv6Q-z3y0)
 
 ## 6. Comparison with Similar Countries and Western Countries
 
@@ -116,6 +121,10 @@ tags: [economics, romania, LLM-collab]
 - Better meritocracy in career advancement.
 - Higher wages for comparable positions.
 - More competitive service markets.
+
+### 6.3. Visualizing Public Services Quality Across Countries
+
+- ![Public Services Qualit Across Counties](https://cdn-0.plantuml.com/plantuml/png/NOzDQm8n48Rl-HMZUAYmqFgnzkDahPPwAQA5diVik0qcasKswQNqltUpKbqCB-yXpyF0Ewy3IeZEglfek4911tlKnr9yvEB5MoyG1Bbk477eM0KTCDhmwZcyeoDu5eDMgLxpRvXWjralLzlFrKBrAl6QYYW4Wxeo1SdDWD5H1WCQfHgdcgIQfig7IaW7vD8Ij2RyA6YUnJrPwA-Ag34Opq_fmEtehj-bRuGsV6aKIdXyZTTy4Ao3H1tYIPbSAvkujqR3HxlQIqZIz5fQcj84jB0Z-JQQwYJbhVIhUiJ5URDI_wENn0xbcC5ZDyCptrLeE8E7DlUdlj2jTyW6CvXbaBUPDRdmHRGbIXBoRePgJbn4P_y0)
 
 ## 7. Solution Proposals for Romanian Citizens
 
