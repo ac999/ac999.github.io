@@ -1,26 +1,26 @@
 // Typography
-$font-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$heading-font: "Georgia", serif;
+$font-stack: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$heading-font: "Playfair Display", Georgia, serif;
 $line-height: 1.6;
-$font-size-base: 16px;
+$font-size-base: 18px;
 
 // Colors
-$text-color: #333;
+$text-color: #2c3e50;
 $background-color: #fff;
-$accent-color: #2e6da4;
-$secondary-color: #4a90e2;
-$light-gray: #f7f7f7;
-$border-color: #eaeaea;
+$accent-color: #3498db;
+$secondary-color: #2980b9;
+$light-gray: #f8f9fa;
+$border-color: #e9ecef;
 $footer-bg: #2c3e50;
 $footer-text: #ecf0f1;
 
 // Layout
-$container-width: 900px;
-$content-width: 700px;
+$container-width: 1140px;
+$content-width: 800px;
 $container-padding: 20px;
-$spacing-sm: 0.75rem;
-$spacing-md: 1.5rem;
-$spacing-lg: 3rem;
+$spacing-sm: 1rem;
+$spacing-md: 2rem;
+$spacing-lg: 4rem;
 
 // Breakpoints
 $breakpoint-sm: 576px;

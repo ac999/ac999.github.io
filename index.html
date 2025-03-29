@@ -5,7 +5,7 @@ title: Home
 
 <main class="home">
   <section class="intro">
-    <h1>Andrei Cristian</h1>
+    <h1>ac999</h1>
     <p class="subtitle">Exploring ideas at the intersection of technology, economics, and human behavior.</p>
   </section>
 
@@ -14,7 +14,7 @@ title: Home
     <ul class="post-list">
       {% for post in site.posts limit:5 %}
         <li class="post-item">
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
           <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
       {% endfor %}
@@ -22,6 +22,7 @@ title: Home
   </section>
 
   <section class="cta">
-    <p>More thoughts and analysis in the <a href="/blog/">Blog Archive</a>.</p>
+    <p>Interested in more thoughts and analysis?</p>
+    <a href="/blog/">Explore the Blog Archive</a>
   </section>
 </main>

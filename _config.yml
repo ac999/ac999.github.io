@@ -1,11 +1,12 @@
 # Site settings
-title: Andrei Cristian
+title: ac999
 description: "Thoughts, ideas, and analysis on technology, economics, and life."
 url: "https://ac999.github.io"
-author: Andrei Cristian
+author: ac999
+lang: en
+timezone: Europe/Bucharest
 
 # Build settings
-theme: null
 markdown: kramdown
 highlighter: rouge
 permalink: /blog/:title/
@@ -32,5 +33,18 @@ defaults:
       type: pages
     values:
       layout: default
+
+# Includes
 include:
+  - _includes
+  - assets
   - assets/images
+
+# Excludes
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - README.md

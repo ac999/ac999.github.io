@@ -3,32 +3,33 @@ layout: default
 ---
 
 <article class="post">
+  <div class="post-navigation">
+    <a href="/blog/" class="back-button">&larr; Back to Blog</a>
+  </div>
+
   <div class="post-header">
-    <div class="post-navigation">
-      <a href="/blog/" class="back-button">&larr; Back to Blog</a>
-    </div>
-    
-    {% if page.thumbnail %}
-    <div class="post-thumbnail">
-      <img src="{{ page.thumbnail }}" alt="{{ page.title }}">
+    {% if page.cover_image %}
+    <div class="post-cover">
+      <img src="/assets/images/{{ page.cover_image }}" alt="{{ page.title }}">
     </div>
     {% endif %}
     
     <h1>{{ page.title }}</h1>
+    
     <div class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
       {% if page.categories.size > 0 %}
-      <span class="categories">
+      <div class="categories">
         {% for category in page.categories %}
           <span class="category">{{ category }}</span>
         {% endfor %}
-      </span>
+      </div>
       {% endif %}
     </div>
   </div>
   
   <div class="post-content">
-    {{ content }}
+    {{ content | replace: 'src="/', 'src="/assets/images/' }}
   </div>
   
   {% if page.tags.size > 0 %}
